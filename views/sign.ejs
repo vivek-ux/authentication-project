@@ -1,0 +1,19 @@
+<%-include('boilerplate.ejs')%>
+<body class="body-4">
+    <%-include('partials/header.ejs')%>
+      <h2 class="catx"><strong>Sign up</strong></h2>
+    <div class = "container">
+        <form action="/sign" method="post">
+          <div class="formcontainer">
+          <div class="wdth">
+            <input type="text" placeholder="Enter Name" name="name" required>
+            <input type="text" placeholder="Enter University" name="unv" required>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit">Sign up</button>
+          </div>
+        </form>
+    </div>
+</body>
+<br/>
+</html>

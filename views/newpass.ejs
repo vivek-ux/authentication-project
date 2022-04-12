@@ -1,0 +1,22 @@
+<%-include('boilerplate.ejs')%>
+<body class="body-9">
+    <%-include('partials/header.ejs')%>
+    <div>
+        <br/>
+            <h2 style="color:green;margin-left: 31%;"><%=messages%></h2>
+        <form action="/pass" method="post">
+          <div class="formcontainer">
+          <div class="container">
+            <input type="password" placeholder="Enter New Password" name="npass" required>
+          </div>
+          <button type="submit">confirm</button>
+        </form>
+    </div>
+
+    <div class="box4">
+      <h2>Created By : VIVEK NEGI</h2>
+      <h2>Authentication protocol project :)</h2>
+    </div>
+    <br/>
+</body>
+</html>
